@@ -1,0 +1,20 @@
+{
+  "name": "zaibot-css-reset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/reset.css",
+  "scripts": {
+    "build": "npm install && lessc reset.less dist/reset.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaibot/css-reset.git"
+  },
+  "keywords": [],
+  "author": "T. de Groen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zaibot/css-reset/issues"
+  },
+  "homepage": "https://github.com/Zaibot/css-reset#readme"
+}

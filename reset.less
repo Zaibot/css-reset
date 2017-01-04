@@ -1,0 +1,31 @@
+html, body,
+div, span,
+h1, h2, h3, h4, h5, h6,
+p, a, u, i, b, strong,
+input, textarea, button, select,
+ul, ol, li,
+dl, dt, dd,
+table, thead, tbody, tfoot, tr, th, td {
+  background: transparent;
+  border: 0 none transparent;
+  box-sizing: inherit;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+  &::before, &::after {
+    color: inherit;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+  table-layout: fixed;
+}
