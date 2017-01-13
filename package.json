@@ -1,6 +1,6 @@
 {
   "name": "@zaibot/css-reset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/reset.css",
   "scripts": {
