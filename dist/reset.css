@@ -40,6 +40,7 @@ td {
   padding: 0;
   text-decoration: none;
   vertical-align: baseline;
+  outline: 0;
 }
 html::before,
 body::before,

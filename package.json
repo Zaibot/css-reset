@@ -1,10 +1,10 @@
 {
-  "name": "zaibot-css-reset",
-  "version": "1.0.0",
+  "name": "@zaibot/css-reset",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/reset.css",
   "scripts": {
-    "build": "npm install && lessc reset.less dist/reset.css"
+    "prepublish": "lessc reset.less dist/reset.css"
   },
   "repository": {
     "type": "git",
